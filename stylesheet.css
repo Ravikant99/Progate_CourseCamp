@@ -1,0 +1,273 @@
+html,body,footer {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+  background-image: url(nr.jpg);
+  background-size: cover;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 0px;
+  margin: 0 auto;
+}
+header{
+  padding:10px 20px;
+  height: 30px;
+  width: 100%;
+  background-color: lightseagreen;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  margin-top: -20px;
+}
+.menu{
+  padding-left:10px;
+  widows: 20px;
+  
+  
+  
+}
+.menu a:hover{
+  color:black;
+}
+
+li {
+  
+  list-style:none;
+  float: left;
+  padding: 20px 10px;
+  font-size: 25px;
+  margin-bottom:20px;
+  margin-left: 20px;
+
+}
+
+
+
+.header-logo {
+  float: left;
+  font-size: 35px;
+  padding: 10px ;
+  margin-bottom: 10px;
+  font-family: 'Lobster', cursive;
+  margin-left: -35px;
+  
+  
+}
+
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: lightseagreen;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    
+  }
+  
+  .btn:hover{
+    background-color:lightblue;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+   margin-top: 10px;
+    color:black;
+    
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    
+
+  }
+  .slidecontainer {
+    padding:10px 30px;
+   
+    background-size: cover;
+    position: relative;
+    
+    height:30px;
+    width:500px;
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 50px 0 100px 0;
+  
+  
+ 
+  text-align: left;
+}
+.marquee{
+  
+}
+.marquee h2{
+  font-family: 'Molle', cursive;
+  font-size: 30px;
+  color:orangered
+
+}
+
+
+
+
+
+
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+
+.lesson-wrapper {
+  padding: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+  text-align: center;
+}
+
+.heading {
+  padding: 60px;
+  
+  
+}
+.heading h2 {
+  font-size: 30px;
+  font-family: 'Passion One', cursive;
+  margin-top: 10%;
+}
+
+.lesson {
+  float: left;
+  width: 32%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+.lesson-icon img{
+  border-radius: 50%;
+}
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  font-size: 15px;
+  font-family: 'Bebas Neue', cursive;
+  
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color:greenyellow;
+  cursor: pointer;
+  box-shadow: 0 7px yellow;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  background-color: lightseagreen;
+  color: #fff;
+  height: 70px;
+  padding-bottom:30px;
+  width: 1170;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  font-family: 'Lobster', cursive;
+  margin:20px 0px 0px 30px;
+}
+
+.footer-list {
+  float: right;
+  font-family: 'Bebas Neue', cursive;
+  margin-right: 50px;
+  
+}
+/* Write your code below */
+

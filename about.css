@@ -1,0 +1,192 @@
+html,body,footer {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+  background-image: url(nr.png);
+  background-size: cover;
+}
+header{
+  padding:10px 20px;
+  height: 30px;
+  width: 100%;
+  background-color: lightseagreen;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  margin-top: -20px;
+}
+menu{
+  padding-left:10px;
+  widows: 20px;
+  margin: 21px 646px 21px 646px;
+  margin-bottom: 30px;
+}
+
+
+li {
+  
+  list-style:none;
+  float: left;
+  padding: 20px 10px;
+  font-size: 25px;
+  margin-bottom:20px;
+  margin-left:30px;
+
+}
+
+
+
+.header-logo {
+  float: left;
+  font-size: 35px;
+  padding: 10px ;
+  font-family: 'Lobster', cursive;
+  margin-top:15px;
+}
+
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: lightseagreen;
+    
+    position: fixed;
+    top: 0;
+    
+    
+    
+    z-index: 10;
+    
+  }
+  
+  .btn:hover{
+    background-color:lightblue;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    color:black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    
+
+  }
+
+  .main{
+    background-color: lightskyblue;
+        background-size: cover;
+    padding :100px 50px;
+   
+}
+.flip-card {
+  background-color: transparent;
+  width: 400px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin-top: 50px;
+  
+}
+.flip-card-inner {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.footer {
+  background-color: lightseagreen;
+  color: #fff;
+  height: 70px;
+  padding-bottom:30px;
+  width: 1170;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  font-family: 'Lobster', cursive;
+  margin:20px 0px 0px 30px;
+}
+
+.footer-list {
+  float: right;
+  font-family: 'Bebas Neue', cursive;
+  margin-right: 50px;
+  
+}
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
